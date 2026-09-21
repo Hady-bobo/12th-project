@@ -1,0 +1,185 @@
+
+/* خلفية الصفحة */
+body { 
+ font-family: Arial, sans-serif;
+    background: black;
+    color: gold;
+	text-align: center;
+	
+}
+
+/* الناف بار */
+nav {
+    background: black;
+	 padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #333;
+	
+}
+
+nav a {
+    color: gold;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: 0.3s; 
+}
+
+nav a:hover {
+    color: white; 
+
+}
+
+.dark {
+    background: white;
+    color: black;
+}
+#modeBtn {
+
+    background: black;   /* خلفية سودا */
+    color: white;        /* لون الرمز أبيض */
+    cursor: pointer;
+    font-size: 25px;
+
+}
+#topBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: none;
+    background: black;
+}
+
+#topBtn::before {
+    content: "";
+    position: absolute;
+    top: 18px;
+    left: 15px;
+
+    width: 12px;
+    height: 12px;
+    border-left: 3px solid white;
+    border-top: 3px solid white;
+    transform: rotate(45deg);
+}
+
+
+
+
+
+/* Titles */
+h1 {
+    margin: 30px 0 10px;
+    font-weight: 500;
+	color: gold;
+}
+
+/* Products */
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.product {
+    background: black;
+    width: 200px;
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+}
+
+.product img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.product h3 {
+    margin: 10px 0;
+    font-size: 16px;
+	color:gold;
+}
+
+.product p {
+    color: gold;
+	
+}
+button {
+    background: gold;
+    color: black; 
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Login */
+.login-body {
+    background: #111;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	
+}
+
+.login-box {
+    background: #111;
+    padding: 30px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.login-box h2 {
+	color: gold;
+    margin-bottom: 10px;
+}
+
+.login-box p {
+    color: gray;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: 1px solid #444;
+	background: black;
+	color:white;
+}
+
+.login-box input:focus {
+    outline: none;
+    border: 1px solid gold;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 10px;
+    background: gold;
+    color: black;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.login-box button:hover {
+    background: black;
+	
+
+}
+

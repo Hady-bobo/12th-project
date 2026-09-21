@@ -1,0 +1,42 @@
+body {
+  
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+
+
+
+header {
+    background: url('style\ image1.jpg') no-repeat center;
+    background-size: cover;
+    height: 300px;
+    color: gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.container {
+    padding: 20px;
+    text-align: center;
+}
+
+.card {
+    background: black;
+    padding: 15px;
+    margin: 15px;
+    display: inline-block;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+

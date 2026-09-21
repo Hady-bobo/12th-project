@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+	<script src="script.js" defer></script>
+	
+</head>
+<body class="login-body">
+
+<div class="login-box">
+    <h2>Old Money Time</h2> <br>
+    <p>Login to continue</p>
+
+
+    <form action="Home.html"onsubmit="return validateForm()">
+        <input type="text" id="username" placeholder="Username" required>
+       <input type="password" id="password" onkeyup="checkPassword()" placeholder="password" required >
+      <p id="message"></p>
+
+        <button type="submit">Login</button>
+    </form>
+
+    <p class="signup-text">Don't have an account? Sign up</p>
+</div>
+
+</body>
+</html>
